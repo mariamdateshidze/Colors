@@ -225,7 +225,7 @@ h2{
     margin-top: 30px;
 }
 
-img{
+.section-image{
     width: 370px;
     height: 370px;
     object-fit: cover;
@@ -241,4 +241,28 @@ p{
     text-align: center;
     margin-top: 50px;
 
+}
+
+#fixed-btn{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    background-color: #a2abe9;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+}
+
+#fixed-btn:hover{
+    background-color: #dbddf1;
+    transition: all 0.5s;
+}
+#fixed-btn:active{
+    background-color: #c9cde7;
+
+}
+#arrow{
+    width: 60px;
 }

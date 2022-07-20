@@ -77,11 +77,18 @@ const btnDiv = document.querySelector('.more-info-div')
 const section = document.querySelector('#main-section')
 const colorSection = document.querySelector('.colors-sections')
 
+const fixedBtn = document.querySelector("#fixed-btn");
+
 loadMore.addEventListener('click', () => {
     btnDiv.classList.toggle('active');
     section.classList.toggle('active')
     colorSection.classList.toggle('active')
 });
+
+fixedBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, left: 100, behavior: 'smooth' });
+    
+  });
 
 
 
