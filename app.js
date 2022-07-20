@@ -21,6 +21,8 @@ function getColors(){
     let pantone = document.createElement('div');
 
     var section = document.querySelector('#main-section')
+    let codeTitle = document.createElement('h2');
+    let panTitle = document.createElement('h2');
 
     titles.classList.add('titles')
 
@@ -31,25 +33,26 @@ function getColors(){
         titles.appendChild(buttons);
         buttons.classList.add('btns')
       
-
         let span = document.createElement('li');
+        codeTitle.textContent = "Colors Codes"; 
         span.textContent = element.color; 
         span.classList.add('codes')
     
         code.appendChild(span);
+        code.appendChild(codeTitle);
         section.appendChild(code);
 
         let spanPan = document.createElement('li');
+        panTitle.textContent = "Pantone Values"; 
         spanPan.textContent = element.pantone_value;
         spanPan.classList.add('pantone')
 
         pantone.appendChild(spanPan);
+        pantone.appendChild(panTitle);
         section.appendChild(pantone);
 
         fragment.appendChild(titles)
         fragment.appendChild(section)
-
-
 
     });
 
@@ -72,11 +75,12 @@ getColors();
 const loadMore = document.querySelector('.learn-more')
 const btnDiv = document.querySelector('.more-info-div')
 const section = document.querySelector('#main-section')
+const colorSection = document.querySelector('.colors-sections')
 
 loadMore.addEventListener('click', () => {
-    console.log('hsjahsj');
     btnDiv.classList.toggle('active');
     section.classList.toggle('active')
+    colorSection.classList.toggle('active')
 });
 
 

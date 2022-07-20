@@ -104,6 +104,7 @@ li{
     font-size: 30px;
     padding: 10px;
     border-radius: 4px;
+    text-align: center;
 }
 
 .codes:first-child{
@@ -136,6 +137,7 @@ li{
     font-size: 30px;
     padding: 10px;
     border-radius: 4px;
+    text-align: center;
 }
 .pantone:first-child{
     background-color: #98B2D1;
@@ -189,4 +191,54 @@ li{
 }
 .more-info-div.active{
     display: grid;
+}
+a{
+    text-decoration: none;
+    color: #111427;
+}
+
+h2{
+    color: #d2ddeb;
+    margin-top: 20px;
+    font-size: 28px;
+}
+.color-title{
+    font-size: 38px;
+   text-align: center;
+}
+.one-color{
+    margin-top: 200px;
+}
+
+.colors-sections{
+    display: none;
+}
+
+.colors-sections.active{
+    display: block;
+}
+.first-sec{
+    margin-top: 400px;
+}
+.about-color{
+    display: flex;
+    margin-top: 30px;
+}
+
+img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    margin-right: 30px;
+    margin-left: 30px;
+    filter: drop-shadow(10px 8px 9px rgb(233, 211, 220));
+}
+p{
+    color: #d2ddeb;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+
 }
