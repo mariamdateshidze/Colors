@@ -12,6 +12,7 @@ h3{
     font-size: 40px;
     text-align:  center;
     margin-bottom: 30px;
+    font-family: 'Lato';
 }
 .container {
     margin: 0 auto;
@@ -38,6 +39,7 @@ h3{
 .btns:hover{
     transform: translateY(-8px);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .btns:first-child:hover{
@@ -79,6 +81,7 @@ h3{
     background-color: #65e9e9;
     transform: translateX(8px);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 #main-section{
@@ -201,6 +204,7 @@ h2{
     color: #d2ddeb;
     margin-top: 20px;
     font-size: 28px;
+    font-family: 'Lato';
 }
 .color-title{
     font-size: 38px;
@@ -240,7 +244,7 @@ p{
     letter-spacing: 1px;
     text-align: center;
     margin-top: 50px;
-
+    font-family: 'Lato';
 }
 
 #fixed-btn{
